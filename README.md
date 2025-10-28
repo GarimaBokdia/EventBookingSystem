@@ -1,6 +1,6 @@
 # EventBookingSystem
 
-
+```mermaid
 
 flowchart LR
   Client["Client (Web / Mobile)"]
@@ -27,3 +27,5 @@ flowchart LR
   BS --> MQ
   PS --> MQ
   NS --> MQ
+
+```
