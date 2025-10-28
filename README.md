@@ -43,7 +43,7 @@ graph TD
     UC[UserController]
     USvc[UserService]
     Auth[AuthController / OAuth2 Handler]
-    LoginSvc[LoginService (strategy factory)]
+    LoginSvc[LoginService with strategy factory]
     EmailLogin[EmailLoginStrategy]
     GoogleLogin[GoogleLoginStrategy]
     Repo[UserRepository (JPA)]
